@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="UTF-8">
+  <title>葡园百科</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="_src/css/vue.css">
+</head>
+
+<body>
+  <div id="app">加载中...</div>
+  <script>
+    window.$docsify = {
+      name: '🍇葡园百科',
+      repo: '',
+      homepage: 'HOME.md',
+      coverpage: true,
+      loadNavbar: true,
+      timeUpdater: {  // 【插件】最后更新时间
+        text: ">最后更新时间: {docsify-updated}",
+        formatUpdated: "{YYYY}/{MM}/{DD}",
+        whereToPlace: "bottom",  // "top" or "bottom", default to "bottom"
+      },
+      plugins: [
+      ]
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="_src/js/docsify@4.js"></script>
+  <script src="_src/js/time-updater.min.js"></script>
+</body>
+
+</html>
